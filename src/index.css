@@ -1,0 +1,10 @@
+h1 {
+    color: rgb(255, 34, 34);
+    text-align: center;
+  }
+  body {
+    /* background-color: #a8ffa0; */
+    /* background-image: url("/home/phatpham/Documents/Codes/Javascript/phat_app/dennis.jpg"); */
+    background-repeat: no-repeat;
+    background-position: auto;
+  }
