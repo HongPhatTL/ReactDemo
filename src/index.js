@@ -1,14 +1,13 @@
 import React from 'react';
-import {render} from 'react-dom';
-import './index.css';
-import App from './App.js'
+import * as ReactDOM from 'react-dom/client';
+import "./index.css";
+import App from './App.js';
+import App2 from './App_2.js'
 
-// class APP extends React.Component{
-//     render(){
-//         return(
-//             <h1>Dennis gay</h1>
-//         )
-//     }
-// }
 
-render(<App/>, document.getElementById('app'))
+  const container = document.getElementById("application-root");
+  const root = ReactDOM.createRoot(container);
+
+  root.render(
+        <App/>
+  )
